@@ -96,6 +96,7 @@ print(type(of: twelve))
 // 💡결론
 // 1️⃣ 프로토콜 타입 리턴 타입은 또 다른 함수에서 사용이 불가하지만, 오파크 타입은 가능하다
 // 2️⃣ associatedtype을 사용하는 프로토콜 타입을 오파크 타입으로 쓰면, 리턴 타입으로 쓸 수 있다.
+// 2️⃣ associatedtype을 사용하는 프로토콜 타입을 오파크 타입으로 쓰면, 리터 타입으로 쓸 수 있다. (타입 어노테이션은 불가)
 
 // 코드 출처 : https://docs.swift.org/swift-book/LanguageGuide/OpaqueTypes.html
 // 참고 블로그 : https://wlaxhrl.tistory.com/82
